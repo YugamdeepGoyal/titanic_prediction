@@ -11,11 +11,6 @@ A machine learning project to predict passenger survival on the Titanic using Lo
 titanic_prediction/
 │
 ├── models/
-│   ├── artifacts/
-│   │   ├── X_train.pkl
-│   │   ├── X_test.pkl
-│   │   ├── y_train.pkl
-│   │   └── y_test.pkl
 │   ├── logistic_regression_model.pkl
 │   └── svm_model.pkl
 │
@@ -58,24 +53,6 @@ source .venv/bin/activate
 
 pip install -r requirements.txt
 ```
-
----
-
-## Requirements
-
-```text
-numpy
-pandas
-matplotlib
-seaborn
-scikit-learn
-imbalanced-learn
-scipy
-kagglehub
-joblib
-openpyxl
-```
-
 ---
 
 ## Approach
