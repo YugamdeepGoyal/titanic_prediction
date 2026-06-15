@@ -1,5 +1,6 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+*.pyc
 *.py[codz]
 *$py.class
 
@@ -221,3 +222,4 @@ __marimo__/
 .DS_Store
 Thumbs.db
 kaggle.jsonmodels/artifacts/
+models/artifacts/

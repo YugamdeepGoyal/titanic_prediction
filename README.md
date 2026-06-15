@@ -24,7 +24,6 @@ titanic_prediction/
 ├── eda.ipynb                      # Exploratory data analysis
 ├── logistic_regression.ipynb      # Logistic Regression training
 ├── svm.ipynb                      # SVM training
-├── testing.ipynb                  # File in which .pkl files are loaded and models are tested
 └── README.md
 ```
 
