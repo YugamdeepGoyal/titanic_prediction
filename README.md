@@ -71,7 +71,7 @@ All preprocessing happens **inside cross-validation folds** — zero data leakag
 
 ### 4. Class Imbalance
 - Handled with **SMOTE** inside the IMBPipeline after preprocessing
-- SMOTE runs inside each CV fold — no synthetic samples leak from validation into training
+- SMOTE runs inside each CV fold - no synthetic samples leak from validation into training
 
 ### 5. Hyperparameter Tuning
 - Used GridSearchCV
@@ -96,10 +96,6 @@ Actual 0              136           26
 Actual 1               19            81
 
 Accuracy:  ~83%
-Precision: ~75%
-Recall:    ~81%
-F1 Score:  ~78%
-ROC-AUC:   ~0.82
 ```
 
 ---
