@@ -99,4 +99,4 @@ Accuracy:  ~83%
 ```
 ---
 
-This is an educational project.
+>> This is an educational project.
