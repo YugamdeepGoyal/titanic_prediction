@@ -97,15 +97,6 @@ Actual 1               19            81
 
 Accuracy:  ~83%
 ```
-
----
-
----
-
-## Future Work
-- Implement RandomForest and XGBoost
-- More aggressive feature engineering
-- Deploy as a web app with Flask or Streamlit
 ---
 
 This is an educational project.
