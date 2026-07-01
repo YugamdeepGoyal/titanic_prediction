@@ -208,7 +208,7 @@ For XGBoost, the optimal hyperparameters were independently verified by repeatin
 | AdaBoost              | ~0.824         | ~0.893        | ~0.776   |
 | Gradient Boosting     | ~0.809         | ~0.898        | ~0.750   |
 | Random Forest         | ~0.821         | ~0.900        | ~0.768   |
-| XGBoost (selected)    | ~0.836         | ~0.911        | ~0.788   |
+| XGBoost (selected)    | ~0.832         | ~0.906       | ~0.78   |
 
 ---
 
