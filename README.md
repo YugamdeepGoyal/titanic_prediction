@@ -223,24 +223,12 @@ XGBoost was selected as the final model because it achieved:
 ---
 
 ## Confusion Matrix (XGBoost)
-
-```text
-              Predicted
-              0      1
-
-Actual 0     139     23
-Actual 1      20     80
-```
+![Confusion Matrix XGBoost](images/confusion_matrix_xgboost.png)
 
 ---
 
-## Deployment
+>> The model XGBoost is used in streamlit
 
-The final XGBoost pipeline-including feature engineering, preprocessing, and prediction-is deployed using Streamlit.
-
-The application allows users to enter passenger information and receive a real-time survival prediction.
-
-**Live Demo:** *(Add Streamlit link here)*
 
 ---
 
@@ -271,6 +259,8 @@ The application allows users to enter passenger information and receive a real-t
 ---
 
 ## License
+
+MIT License is added in this project.
 
 This project is intended for educational purposes and portfolio demonstration.
 
