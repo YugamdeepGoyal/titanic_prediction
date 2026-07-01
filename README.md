@@ -232,12 +232,6 @@ Actual 0     139     23
 Actual 1      20     80
 ```
 
-| Metric | Value |
-|---------|------:|
-| Accuracy | 83.6% |
-| Precision | 77.7% |
-| Recall | 80.0% |
-
 ---
 
 ## Deployment
