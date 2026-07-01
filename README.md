@@ -202,13 +202,13 @@ For XGBoost, the optimal hyperparameters were independently verified by repeatin
 
 | Model                 | Test Accuracy | Test ROC-AUC | Test F1 |
 |-----------------------|---------------|--------------|---------|
-| Decision Tree         | 0.802         | 0.867        | 0.755   |
-| Logistic Regression   | 0.828         | 0.880        | 0.785   |
-| SVM                   | 0.832         | 0.873        | 0.782   |
-| AdaBoost              | 0.824         | 0.893        | 0.777   |
-| Gradient Boosting     | 0.809         | 0.898        | 0.750   |
-| Random Forest         | 0.821         | 0.901        | 0.768   |
-| XGBoost (selected)    | 0.836         | 0.911        | 0.788   |
+| Decision Tree         | ~0.802         | ~0.867        | ~0.755   |
+| Logistic Regression   | ~0.828         | ~0.880        | ~0.785   |
+| SVM                   | ~0.832         | ~0.873        | ~0.782   |
+| AdaBoost              | ~0.824         | ~0.893        | ~0.776   |
+| Gradient Boosting     | ~0.809         | ~0.898        | ~0.750   |
+| Random Forest         | ~0.821         | ~0.900        | ~0.768   |
+| XGBoost (selected)    | ~0.836         | ~0.911        | ~0.788   |
 
 ---
 
@@ -216,16 +216,10 @@ For XGBoost, the optimal hyperparameters were independently verified by repeatin
 
 XGBoost was selected as the final model because it achieved:
 
-- Highest test ROC-AUC: **0.911**
-- Highest test F1-score: **0.788**
+- Highest test ROC-AUC: **~0.9105**
+- Highest test F1-score: **~0.788**
+- Highest test accuracy: **~0.836**
 - Smallest train-test performance gap
-
-Across all models, a consistent trend emerged:
-
-- Logistic Regression, SVM, and AdaBoost slightly underfit.
-- Random Forest and Gradient Boosting achieved higher training scores but showed larger generalization gaps, indicating mild overfitting.
-- XGBoost balanced bias and variance most effectively through regularization (`gamma`, `reg_alpha`, and `reg_lambda`), producing the strongest generalization performance.
-
 ---
 
 ## Confusion Matrix (XGBoost)
