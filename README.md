@@ -135,7 +135,7 @@ Characteristics:
 
 Tree-based models naturally discover optimal split thresholds, making manual binning unnecessary.
 
-#### Linear / Distance-based Pipeline (`pipeline.py`)
+#### Linear / Distance-based Pipeline (`pipelines.py`)
 
 Used for:
 
