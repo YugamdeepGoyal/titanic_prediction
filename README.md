@@ -200,15 +200,15 @@ For XGBoost, the optimal hyperparameters were independently verified by repeatin
 
 ## Model Performance
 
-| Model | Train ROC-AUC | Test ROC-AUC | Train F1 | Test F1 |
-|-------|--------------:|-------------:|---------:|--------:|
-| Decision Tree | 0.879 | 0.867 | 0.769 | 0.755 |
-| Logistic Regression | 0.845 | 0.880 | 0.732 | 0.785 |
-| SVM | 0.865 | 0.873 | 0.743 | 0.782 |
-| AdaBoost | 0.879 | 0.893 | 0.750 | 0.777 |
-| Gradient Boosting | 0.928 | 0.898 | 0.811 | 0.750 |
-| Random Forest | 0.934 | 0.901 | 0.812 | 0.768 |
-| **XGBoost** | **0.916** | **0.911** | **0.788** | **0.788** |
+| Model                 | Test Accuracy | Test ROC-AUC | Test F1 |
+|-----------------------|---------------|--------------|---------|
+| Decision Tree         | 0.802         | 0.867        | 0.755   |
+| Logistic Regression   | 0.828         | 0.880        | 0.785   |
+| SVM                   | 0.832         | 0.873        | 0.782   |
+| AdaBoost              | 0.824         | 0.893        | 0.777   |
+| Gradient Boosting     | 0.809         | 0.898        | 0.750   |
+| Random Forest         | 0.821         | 0.901        | 0.768   |
+| XGBoost (selected)    | 0.836         | 0.911        | 0.788   |
 
 ---
 
